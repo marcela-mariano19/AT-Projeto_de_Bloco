@@ -3,9 +3,9 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import streamlit as st 
 
-df_complet = pd.read_csv('data\df_complet.csv')
-df_complet_log = pd.read_csv('data\df_complet_log.csv')
-df_complet_copy_0 = pd.read_csv('data\df_complet_copy_0.csv')
+df_complet = pd.read_csv('data/df_complet.csv')
+df_complet_log = pd.read_csv('data/df_complet_log.csv')
+df_complet_copy_0 = pd.read_csv('data/df_complet_copy_0.csv')
 
 
 st.title('a. Selecione os plots relevantes da fase de análise exploratória.')
